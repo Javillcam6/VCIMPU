@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursoContainer{
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 250px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.cardCurso{
+    width: 380px;
+    height: 460px;
+    border-radius: 12px;
+    /* border: 1px solid #E5E7EB; */
+}
+
+.cardCurso img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px 8px 0 0;
+
+}
+.info-cardCurso{
+    color: white;
+    margin: 8px 0 14px 14px;
+}
+.info-cardCurso{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-cardCurso p{
+    color: rgb(168, 168, 169);
+    font-size: 12px;
+}
+.info-cardCurso .priceCurso{
+    color: #fac810;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-cardCurso{
+    width: 300px;
+    height: 40px;
+    background-color: #A08522;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 42px;
+    border-radius: 8px;
+}
+.btn-cardCurso p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}

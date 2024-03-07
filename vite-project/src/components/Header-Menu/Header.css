@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+button{
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+.navBar{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logoVCI{
+    height: 80px;
+    width: 80px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.menu-links{
+    display: flex;
+    gap: 24px;
+    border-right: 1px solid white;
+    padding-inline: 24px;
+}
+.menu-links a{
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    padding: 8px 18px;
+    cursor: pointer;
+}
+.text-white{
+    color: (153, 153, 153);
+}
+.text-white{
+    width: 20px;
+    height: 30px;
+    color: rgb(153, 153, 153);;
+    cursor: pointer;
+}
+.text-white:hover{
+    color: white;
+}
+.menu-links a:hover{
+    color: rgb(255, 255, 255);
+}
+.log-in{
+    font-weight: 500;
+    padding: 12px 22px;
+    background-color: transparent;
+    color: rgb(153, 153, 153);
+    border-radius: 10px;
+    border: 2px solid rgb(176, 153, 5);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.log-in:hover{
+    background-color:rgb(176, 153, 5);
+    color: white;
+    font-weight: 600;
+}
+
+.menu-btn{
+    font-size: 32px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width:53rem){
+    .menu{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+}

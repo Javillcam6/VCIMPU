@@ -1,0 +1,14 @@
+.curso-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+  }
+  
+  .sidebarCurso {
+    flex: 0 0 30%;
+  }
+  
+  .curso-card1{
+    flex: 1; /* Esto hace que el CursoCard ocupe el 50% del ancho */
+  }
+  
